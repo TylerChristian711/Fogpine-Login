@@ -2,18 +2,12 @@ body {
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f8726194-6e27-4783-bdc4-c6009a78737e/d4fmqyu-a2fa3047-20be-4739-9731-5cd93c036b13.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y4NzI2MTk0LTZlMjctNDc4My1iZGM0LWM2MDA5YTc4NzM3ZVwvZDRmbXF5dS1hMmZhMzA0Ny0yMGJlLTQ3MzktOTczMS01Y2Q5M2MwMzZiMTMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VaERltap6LaRcA_JAfOJ5fBnnSAXByE5YcAjGVdu2p0");
     background-repeat: no-repeat;
     background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.signUp{
-    border-style: solid;
-    display: block;
-    max-width: 1000px;
-    max-height: 1000px;
-}
-
-div.signUp {
-    margin: auto;
-    position: relative;
-    top: 50%;
-    max-height: 150px;
+main {
+    width: 75%;
+    margin: 0 auto;
 }
